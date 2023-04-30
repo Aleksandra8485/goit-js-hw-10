@@ -10,3 +10,12 @@ export const fetchCountries = name => {
       return data;
     });
 };
+
+// Napisz funkcję fetchCountries(name)
+//która tworzy żądanie HTTP do endpointa /name i
+//przekazuje obietnicę której wynikiem będzie tablica krajów
+// będącą wynikiem żądania.
+//Przenieś ją do oddzielnego pliku fetchCountries.js i
+//eksportuj ją przy pomocy jej nazwy (named export).
+
+// funkcja pobierająca dane dotyczące krajów z API
